@@ -1,0 +1,18 @@
+name: SlimeChunk
+version: 1.0
+main: com.scrappymc.slimechunk.SlimeChunk
+api-version: 1.13
+authors: [Hypermoron]
+description: For detecting slime chunks.
+
+commands:
+  slimechunk:
+    description: "Base command for SlimeChunk."
+    usage: "/slimechunk [subcommand]"
+    aliases: [sc]
+
+permissions:
+  slimechunk.find:
+    default: true
+  slimechunk.admin:
+    default: op

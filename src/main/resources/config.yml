@@ -1,0 +1,9 @@
+# When punching a block with the detection item, checks if the block is in a slime chunk
+detection-item: SLIME_BALL
+consume-item: true
+
+# List of worlds in which the feature is enabled
+# Use blacklist mode to instead disable the feature in those worlds
+whitelisted-worlds:
+  - world
+blacklist-mode: false
